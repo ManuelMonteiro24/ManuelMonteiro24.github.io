@@ -1,44 +1,105 @@
 <!DOCTYPE html>
+<html>
 <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Ewert" rel="stylesheet" type="text/css">
+<head>
+    <title>Index
+    </title>
+</head>
 <style>
     body{
-        background-color: olivedrab;
+        background-color: gainsboro;
         font-family: Cabin, monospace;
         font-size: 18px;
-        margin-left: 40px;
     }
-    h1{
+    .header{
         text-align: center;
         font-family: Casbin, monospace;
+        font-size: 25px;
+	    background-color: darkseagreen;
+        border-radius: 10%;
+        border-width: medium;
+        border-style: dotted solid;
+        border-color: indianred;
+    }
+    .content{
+	    margin: 1em 5%;
+	    background-color: darkseagreen;
+	    background-position: 30% 0;
+        padding: 10px;
+        border-radius: 5%;
+        border-width: medium;
+        border-style: dotted solid;
+        border-color: indianred;
+    }
+    .column{
+        background-color: darkseagreen;
+        float: left;
+	    width: 20%;
+        border-radius: 5%;
+        border-width: medium;
+        border-style: dotted solid;
+        border-color: indianred;
+    }
+    .footer{
+        clear: both;
+        background-color: darkseagreen;s
+	    text-align: right;
+	    border-radius: 10%;
+        border-width: medium;
+        border-style: dotted solid;
+        border-color: indianred;
+        padding-left: 50px;
     }
     p{  text-align: left;
         padding: 50x 50px 50px 50px;
+        margin-left: auto;
     }
     .resize_image{
         width:150px;
         border-width: medium;
-        border-style: groove;
-        border-color: coral;
+        border-style: dotted solid;
+        border-color: indianred;
         border-radius: 10%;
         margin:20px 20px 20px 20px;
-        
+        float:right;
+        margin: auto;
     }
 </style>
-<html>
-    <h1 class="posicion_title">Manuel Monteiro playground
-    </h1>
-    <img src ="https://scontent.flis2-1.fna.fbcdn.net/v/t1.0-9/10906458_785323751515695_3728767400707822439_n.jpg?oh=927aacf558450542b28af898a8a2cc9c&oe=582BCBD9" class ="resize_image"
-    
-    <p>
-    <br>Hi my name is Manuel Monteiro i am 20 years old, portuguese student of Electrical and Computer Engineering at Instituto Superior Tecnico (IST) in Lisbon, Portugal. Currently i use this page to learn and develop my web programming skills, but i hope that in the future as i develop my knowledge this website could be my personal website where i can put my projects and my interess online. 
-    </p>
-    <h2>Contact me:<br>
-        email, tic-manuel13b@hotmail.com<br>
-        <a href='https://www.facebook.com/manel.monteiro.50'>Link to my facebook
-        </a>
-    </h2>
-    
-    
-    
+<body>
+    <div class="corpo">
+        <div class="header">
+            <h1>Manuel Monteiro playground
+            </h1>
+        </div>
+        <!--<div class="column">
+            <p>Navigation column
+            </p>
+        </div>-->
+        <div class="content">
+            <h2>About me:
+            </h2>
+            <p>
+            <img src ="https://scontent.flis2-1.fna.fbcdn.net/v/t1.0-9/10906458_785323751515695_3728767400707822439_n.jpg?oh=927aacf558450542b28af898a8a2cc9c&oe=582BCBD9" class ="resize_image">    
+            Hi my name is Manuel Monteiro i am 20 years old, portuguese student of Electrical and Computer Engineering at Instituto Superior Tecnico (IST) in Lisbon, Portugal. Currently i use this page to learn and develop my web programming skills, but i hope that in the future as i develop my knowledge this website could be my personal website where i can put my projects and my interests online. Some of my interests are:
+            </p>
+            <ul>
+                <li>Travelling
+                </li>
+                <li>Music
+                </li>
+                <li>Movies
+                </li>
+            </ul>
+            <h3>Contact me:<br>
+            email, tic-manuel13b@hotmail.com<br>
+            <a href='https://www.facebook.com/manel.monteiro.50'>Link to my facebook
+            </a>
+            </h3>
+        </div>
+        <div class="footer">
+            <p>Footer
+            </p>
+        </div>
+    </div>
+ </body>   
 </html>
