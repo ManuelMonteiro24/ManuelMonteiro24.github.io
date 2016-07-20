@@ -10,6 +10,7 @@
         background-color: gainsboro;
         font-family: Cabin, monospace;
         font-size: 18px;
+        color: black;
     }
     .header{
         text-align: center;
@@ -22,10 +23,9 @@
         border-color: indianred;
     }
     .content{
-	    margin: 1em 5%;
+        margin-top: 10px;
 	    background-color: darkseagreen;
 	    background-position: 30% 0;
-        padding: 10px;
         border-radius: 5%;
         border-width: medium;
         border-style: dotted solid;
@@ -34,11 +34,11 @@
     .column{
         background-color: darkseagreen;
         float: left;
-	    width: 20%;
         border-radius: 5%;
         border-width: medium;
         border-style: dotted solid;
         border-color: indianred;
+        margin: 25px;
     }
     .footer{
         clear: both;
@@ -62,7 +62,39 @@
         border-radius: 10%;
         margin:20px 20px 20px 20px;
         float:right;
-        margin: auto;
+        margin: 10px;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    li{
+        border-bottom-width: medium;
+        border-style: dotted solid;
+        border-color: indianred;
+    }
+    li:last-child {
+    border-bottom: none;
+    }
+    li a{
+        color: black;
+        font-family: Casbin, monospace;
+        font-size: 20px;
+        display: block;
+        width: 125px;
+        height: 75px;
+    }
+    ul1{
+        list-style-type: decimal
+    }
+    li a:hover {
+        background-color: indianred;
+        color: darkseagreen;
+    }
+    .active{
+         color: indianred;
     }
 </style>
 <body>
@@ -71,33 +103,29 @@
             <h1>Manuel Monteiro playground
             </h1>
         </div>
-        <!--<div class="column">
-            <p>Navigation column
-            </p>
-        </div>-->
+        <div class="column">
+            <ul>
+                <li><a href="https://manuelmonteiro24.github.io" class="active">Home</a></li>
+                <li><a href="news.asp">About me</a></li>
+                <li><a href="contact.asp">Contact</a></li>
+                <li><a href="about.asp">Projects</a></li>
+                <li><a href="about.asp">Hobbies</a></li>
+            </ul>
+        </div>
         <div class="content">
             <h2>About me:
             </h2>
             <p>
             <img src ="https://scontent.flis2-1.fna.fbcdn.net/v/t1.0-9/10906458_785323751515695_3728767400707822439_n.jpg?oh=927aacf558450542b28af898a8a2cc9c&oe=582BCBD9" class ="resize_image">    
-            Hi my name is Manuel Monteiro i am 20 years old, portuguese student of Electrical and Computer Engineering at Instituto Superior Tecnico (IST) in Lisbon, Portugal. Currently i use this page to learn and develop my web programming skills, but i hope that in the future as i develop my knowledge this website could be my personal website where i can put my projects and my interests online. Some of my interests are:
-            </p>
-            <ul>
-                <li>Travelling
-                </li>
-                <li>Music
-                </li>
-                <li>Movies
-                </li>
-            </ul>
+            Hi my name is Manuel Monteiro i am 20 years old, portuguese student of Electrical and Computer Engineering at Instituto Superior Tecnico (IST) in Lisbon, Portugal. Currently i use this page to learn and develop my web programming skills, but i hope that in the future as i develop my knowledge this website could be my personal website where i can put my projects and my interests online.
             <h3>Contact me:<br>
             email, tic-manuel13b@hotmail.com<br>
-            <a href='https://www.facebook.com/manel.monteiro.50'>Link to my facebook
+            <a href='https://www.facebook.com/manel.monteiro.50' style="color: black">Link to my facebook
             </a>
             </h3>
         </div>
         <div class="footer">
-            <p>Footer
+            <p>Website made by: Manuel Monteiro
             </p>
         </div>
     </div>
