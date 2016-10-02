@@ -6,7 +6,9 @@ p {
     text-align: justify;
     margin: 40;
 }
-
+.image{
+    float: right;
+}
 .margin {
     margin: 30px 30px 30px 30px;
 }
