@@ -1,0 +1,30 @@
+body {
+    font-family: monospace;
+    background-color: ghostwhite;
+}
+p { 
+    text-align: justify;
+    margin: 40;
+}
+
+.margin {
+    margin: 30px 30px 30px 30px;
+}
+.about_box{
+    width: 600px;
+    height: 300px;
+    padding:  10px 10px 10px 10px;
+}
+
+.container{
+	    background-color: lightgray;
+        padding: 1em;
+        border: black;
+        border-style: groove;
+    }
+.footer{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
