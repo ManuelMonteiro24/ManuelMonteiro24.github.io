@@ -21,16 +21,15 @@ h2{
 }
 .image_att{
     opacity: 1.0;
-    overflow:hidden;
-    float: right;
-    margin-right: 90px;
+    float: left;
+    margin: 15px;
     border-radius: 20%;
     border-style: groove;
     border: black;
     border-width: medium; 
 }
 .margin {
-    margin: 40px 30px 30px 150px;
+    margin: 15x;
 }
 .title_margin {
     margin: 70px 30px 30px 200px;
